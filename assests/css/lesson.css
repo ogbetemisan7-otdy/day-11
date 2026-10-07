@@ -1,0 +1,13 @@
+.container p{
+    color: blue;
+    background-color: lightgrey;
+    padding: 50px 10px;
+    border-radius: 20px;
+    border: 5px solid blue;
+    width: 50%;
+    text-align: right;
+    text-transform: capitalize;
+}
+.remove-line{
+    text-decoration: none;
+}

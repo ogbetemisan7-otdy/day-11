@@ -3,24 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Margin Demo</title>
-    <link rel="stylesheet" href="assests/css/styles.css">
+    <title>About Me</title>
+    <link rel="stylesheet" href="assests/css/all.min.css">
+    <link rel="stylesheet" href="assests/css/about.css">
 </head>
 <body>
-    <div class="container">
-        <div class="box four">
-            <h1>My Site</h1>
-        </div>
-        <div class="box three"></div>
-        <div class="box two"></div>
-        <div class="box one"></div>
-        <span class="box inline-demo"></span>
-     <ul>
-        <li><a href="service.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="account.html">Account</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="main-container">
+        <header>
+            <div class="logo-container">
+                <img class="logo-img" src="assests/image/iphone logo.jpg" alt="">
+            </div>
+            <h1>ABC STORES</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="."><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-info"></i> About</a></li>
+                <li><a href="service.html"><i class="fa-solid fa-cog"></i> Services</a></li>
+                <li><a href="account.html"><i class="fa-solid fa-user"></i> Account</a>
+                    <ul>
+                        <li><a href="login.html"><i class="fa-solid fa-sign-in-alt"></i> Login</a></li>
+                        <li><a href="register.html"><i class="fa-solid fa-user-plus"></i> Register</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <main>
+            <div class="hero">
+                   <div class="social">
+                    <h1>Connections</h1>
+                    <p>Connect with Us via</p>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i> </a></li>
+                        <li><a href=""><i class="fa-brands fa-x"></i> </a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i> </a></li>
+                        <li><a href=""><i class="fa-brands fa-whatsapp"></i> </a></li>
+                    </ul>
+                   </div>
+                   <a href="product-form.html"></a>
+            </div>
+        </main>
+        <footer></footer>
     </div>
 </body>
 </html>
