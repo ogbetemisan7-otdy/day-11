@@ -1,0 +1,40 @@
+.container{
+    width: 900px;
+    height: 90vh;
+    /*margin-top: 100px;*/
+   /* margin-left: 100px;*/
+   margin: 20px 30px 20px 40px;
+    /* Border-property: top right bottom left*/
+    background-color: lightgray;
+}
+.box{
+     width: 500px;
+    height: 100px;
+    background-color: peachpuff;
+    border-radius: 20px;
+}
+.four{
+    margin: 50px 10px 0 50px;
+    /* Border-property: top right bottom left*/
+    color: lightcoral;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.three{
+    margin: 50px 50px 0;
+    /* Border-property: top L/R bottom*/
+    padding: 20px 30px 0;
+}
+.two{
+    margin: 50px 50px;
+    /* Border-property: T/B L/R*/
+}
+.one{
+    margin: 50px;
+    /* Border-property: all of it*/
+}
+.inline-demo{
+   /* display: block; */
+    margin: 50px;
+
+}
